@@ -1,0 +1,82 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 230px;
+    
+}
+
+
+
+
+.search{
+    width: 600px;
+}
+
+
+
+.profile{
+    width: 250px;
+}
+
+.headerleft{
+    display: flex;
+    align-items: center;   
+    
+}
+
+
+.headermiddle{
+    display: flex;
+    align-items: center; 
+}
+
+
+.headerright{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+
+a{
+   display: flex;
+   justify-content: space-between;
+
+   
+
+
+}
+
+
+.image {
+    flex: 1; /* This makes the images take up equal space within the parent */
+    margin: 0 5px; /* Add margin for spacing between the images */
+    
+  }
+
+  .video {
+    flex: 5; /* This makes the images take up equal space within the parent */
+
+    width: 500px;
+    height: 300px;
+  }
+  
+  img {
+    max-width: 100%; /* Ensure the images don't exceed the width of their containers */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  
+
+
+
+
+
+
